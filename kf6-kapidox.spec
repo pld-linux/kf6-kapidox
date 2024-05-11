@@ -5,17 +5,17 @@
 # - runtime Requires if any
 # - python3 version
 # - .pyo etc
-%define		kdeframever	6.1
+%define		kdeframever	6.2
 %define		qtver		5.15.2
 %define		kfname		kapidox
 Summary:	Kapidox
 Name:		kf6-%{kfname}
-Version:	6.1.0
+Version:	6.2.0
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	440a8c01da58cfd7e4f857a66cdd3b28
+# Source0-md5:	9584db157e8762c5a041cc3030aaaf92
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= 5.2.0
 BuildRequires:	Qt6DBus-devel >= 5.2.0
