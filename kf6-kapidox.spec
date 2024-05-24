@@ -30,6 +30,7 @@ BuildRequires:	rpmbuild(macros) >= 1.164
 BuildRequires:	sphinx-pdg
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
+Obsoletes:	kf5-%{kfname} < %{version}
 Requires:	graphviz
 Requires:	kf6-dirs
 BuildArch:	noarch
