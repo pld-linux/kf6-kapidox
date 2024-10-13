@@ -67,5 +67,5 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/kapidox-depdiagram-generate
 %attr(755,root,root) %{_bindir}/kapidox-depdiagram-prepare
 %attr(755,root,root) %{_bindir}/kapidox-generate
-%{py3_sitescriptdir}/kapidox/
+%{py3_sitescriptdir}/kapidox
 %{py3_sitescriptdir}/kapidox-*.egg-info
