@@ -48,6 +48,16 @@ generating the documentation more convenient (including reading
 settings from the target framework or other module) and a standard
 template for the generated documentation.
 
+%description -l pl.UTF-8
+Ten szkielet zawiera skrypty i dane do budowania dokumentacji API
+(dox) w standardowym formacie i stylu.
+
+Narzędzie Doxygen jest używane do wyciągania dokumentacji z kodu
+źródłowego i formatowania, ale kapidox dostarcza skryptów, dzięki
+którym generowanie dokumentacji jest łatwiejsze (włączając
+odczytywanie ustawień z docelowego szkieletu lub innego modułu) i
+standardowego szablonu dla generowanej dokumentacji.
+
 %prep
 %setup -q -n %{kfname}-%{version}
 
